@@ -3,7 +3,9 @@
 // try/catch trys to do a fetch, but if fails catches error and can use it
 // NOTE using async and await allows the "response" variable below to get data before
     // it loads, otherwise it wouldnt work and would just be undefined
-    
+   
+// YOU'LL NEED THIS LATER ˇˇˇˇ
+    // https://salty-falls-81744.herokuapp.com/ 
 let apiQuotes = [];
 
 async function getQuotes() {

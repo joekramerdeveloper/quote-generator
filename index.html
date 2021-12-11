@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="file:///Users/joedev/Desktop/js_course/templates/favicon-16x16.png"
+    />
+    <!-- this favicon method ONLY works with Live Server Extension and on Chrome as of 12/7/2021
+          UPDATE: it works randomly.  Chrome blocks it as a security flaw for some reason -->
+  </head>
+  <body>
+    <div class="quote-container" id="quote-container">
+      <!-- Quote element -->
+      <div class="quote-text">
+        <i class="fas fa-quote-left"></i>
+        <span id="quote">The children of the night, what beautiful music they make</span>
+        <!-- Span is used because its just the text here, and ID will let us target and change
+        with JS -->
+        <i class="fas fa-quote-right"></i>
+        <!-- FAS is font awesome for making the icons of the quotation marks -->
+
+        <!-- Author element -->
+        <div class="quote-author">
+          <span id="author">Vlad Tepes</span>
+        </div>
+
+        <!-- Button Elements, by putting them in a container we can then use flexbox on just
+              the buttons to style and move them where we want them to be located  -->
+        <div class="button-container">
+          <button class="twitter-button" id="twitter" title="Tweet This!">
+            <i class="fab fa-twitter"></i>
+            <!-- the weird class is font awesome icons, very cool icons to jazz up your pages -->
+          </button>
+          <!-- tittle attribute used for automatic hover state explaination  -->
+          <button id="new-quote">New Quote</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

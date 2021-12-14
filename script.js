@@ -4,7 +4,7 @@
 // NOTE using async and await allows the "response" variable below to get data before
     // it loads, otherwise it wouldnt work and would just be undefined
    
-// YOU'LL NEED THIS LATER ˇˇˇˇ
+// YOU'LL NEED THIS LATER ˇˇˇ
     // https://salty-falls-81744.herokuapp.com/ 
 let apiQuotes = [];
 

@@ -76,7 +76,7 @@ button {
 button:hover {
   filter: brightness(135%);
 }
-/* AWESOME SIMPLE  button press psuedo class to make it look like button is moving into page  */
+/* AWESOME SIMPLE button press psuedo class to make it look like button is moving into page  */
 button:active {
   transform: translate(0, 0.25rem);
   box-shadow: 0 0.1rem rgba(255, 255, 255, .4);

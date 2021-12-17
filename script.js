@@ -4,7 +4,7 @@ function newQuote() {
     const quote = localQuotes[Math.floor(Math.random() * localQuotes.length)];
     console.log(quote);
 
-};
+}
 // Get quotes from API via asychronus fetch request w/in a try catch statement 
 // async runs anytime and wont stop the browser from loading
 // try/catch trys to do a fetch, but if fails catches error and can use it
